@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        int a,b,max;
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter the value of a : ");
+        a=sc.nextInt();
+        System.out.println("Enter the value of b : ");
+        b=sc.nextInt();
+        max = (a > b) ? a : b;
+     
+    // Print the largest number
+    System.out.println("Largest number between " + a +
+                  " and " + b + " is " + max + ". " );
+    }
+}
