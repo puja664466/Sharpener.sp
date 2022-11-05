@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Main {
+ 
+    public static void main(String[] args) {
+        //number
+        int n ;
+        Scanner sc= new Scanner(System.in);
+        System.out.println("n= ");
+        n= sc.nextInt();
+        //print all even numbers <=n 
+        int even=2;
+        while (even<=n) {
+            System.out.print(even+"  ");
+            even += 2;
+        }
+    }
+}
