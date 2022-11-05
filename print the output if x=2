@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        int x;
+        Scanner sc= new Scanner(System.in);
+        System.out.println("x : ");
+       x =sc.nextInt();
+
+switch (x)
+{
+case 1:
+System.out.println( "Choice is 1");
+break;
+case 2:
+System.out.println( "Choice is 2");
+case 3:
+System.out.println( "Choice is 3");
+case 4:
+System.out.println( "Choice is 4");
+break;
+default:
+System.out.println( "Choice is 1,2,3 and 4");
+break;
+}
+    }
+}
