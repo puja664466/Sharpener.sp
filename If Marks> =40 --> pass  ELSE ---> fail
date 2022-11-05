@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        int n;
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter the marks of student : ");
+        n=sc.nextInt();
+        if(n>=40)
+        {
+            System.out.println("PASS");
+        }
+        else
+        {
+            System.out.println("FAIL");
+        }
+    }
+}
