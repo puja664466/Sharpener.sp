@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main {
+	private static Scanner sc;
+	public static void main(String[] args) 
+	{
+		int m, n;
+		sc = new Scanner(System.in);
+		
+		System.out.print("Enter the value of n  : ");
+		n = sc.nextInt();
+		
+		System.out.print("Enter the value of m : ");
+		m = sc.nextInt();
+		
+		
+		for(int i = 1; i <= n; i++)
+		{
+			if(i==m)
+			{   
+			    break;
+				 
+			}
+			System.out.println(+i);
+		}	
+	}
+}
