@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Main {
+	private static Scanner sc;
+	public static void main(String[] args) 
+	{
+		int number, i;
+		sc = new Scanner(System.in);
+		
+		System.out.print("Enter any Number : ");
+		number = sc.nextInt();	
+		
+		for(i = 1; i <= number; i++)
+		{
+			if(i % 2 == 0)
+			{
+			    {
+			        if (i%4==0) {
+                        continue;
+			    }
+				System.out.print(i +"\t"); 
+			}
+		}	
+	}
+}
+}
